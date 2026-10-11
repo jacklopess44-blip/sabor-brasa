@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sabor & Brasa</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Sabor <span>&</span> Brasa</div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <a href="#cardapio" class="btn">
+            Ver cardápio
+        </a>
+    </header>
+
+
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-text">
+
+                <p class="tag">🍔 RESTAURANTE ARTESANAL</p>
+
+                <h1>
+                    Sabor de verdade
+                    <span>na sua mesa.</span>
+                </h1>
+
+                <p class="descricao">
+                    Hambúrgueres artesanais, pizzas e pratos
+                    preparados com ingredientes selecionados.
+                </p>
+
+                <div class="botoes">
+
+                    <a href="#cardapio" class="btn-principal">
+                        Ver nosso cardápio
+                    </a>
+
+                    <a href="#contato" class="btn-secundario">
+                        Fazer pedido
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-img">
+
+                <img
+                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80"
+                    alt="Hambúrguer artesanal"
+                >
+
+            </div>
+
+        </section>
+
+
+        <section id="cardapio" class="cardapio">
+
+            <div class="titulo">
+
+                <p>ESCOLHA SEU FAVORITO</p>
+
+                <h2>
+                    Nosso Cardápio
+                </h2>
+
+            </div>
+
+
+            <div class="cards">
+
+                <div class="card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                        alt="Hambúrguer"
+                    >
+
+                    <div class="card-info">
+
+                        <h3>
+                            Brasa Especial
+                        </h3>
+
+                        <p>
+                            Hambúrguer artesanal, queijo,
+                            bacon e molho especial.
+                        </p>
+
+                        <div class="preco">
+
+                            <strong>
+                                R$ 29,90
+                            </strong>
+
+                            <button onclick="pedir('Brasa Especial')">
+                                Pedir
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=600&q=80"
+                        alt="Pizza"
+                    >
+
+                    <div class="card-info">
+
+                        <h3>
+                            Pizza da Casa
+                        </h3>
+
+                        <p>
+                            Massa artesanal, queijo e
+                            ingredientes frescos.
+                        </p>
+
+                        <div class="preco">
+
+                            <strong>
+                                R$ 49,90
+                            </strong>
+
+                            <button onclick="pedir('Pizza da Casa')">
+                                Pedir
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80"
+                        alt="Massa"
+                    >
+
+                    <div class="card-info">
+
+                        <h3>
+                            Massa Especial
+                        </h3>
+
+                        <p>
+                            Massa italiana com molho
+                            cremoso e ingredientes frescos.
+                        </p>
+
+                        <div class="preco">
+
+                            <strong>
+                                R$ 34,90
+                            </strong>
+
+                            <button onclick="pedir('Massa Especial')">
+                                Pedir
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <section id="sobre" class="sobre">
+
+            <div>
+
+                <p class="tag">
+                    SOBRE O RESTAURANTE
+                </p>
+
+                <h2>
+                    Comida boa é aquela
+                    que dá vontade de repetir.
+                </h2>
+
+                <p>
+                    No Sabor & Brasa, cada prato é preparado
+                    com carinho e ingredientes selecionados.
+                </p>
+
+            </div>
+
+
+            <div class="numeros">
+
+                <div>
+                    <strong>10+</strong>
+                    <p>Anos de experiência</p>
+                </div>
+
+                <div>
+                    <strong>5K+</strong>
+                    <p>Clientes satisfeitos</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="contato" class="contato">
+
+            <div class="titulo">
+
+                <p>FAÇA SEU PEDIDO</p>
+
+                <h2>
+                    Entre em contato
+                </h2>
+
+            </div>
+
+
+            <div class="contato-cards">
+
+                <div>
+                    <h3>📍 Endereço</h3>
+
+                    <p>
+                        Rua Principal, 123
+                        <br>
+                        Santarém - PA
+                    </p>
+                </div>
+
+
+                <div>
+                    <h3>🕐 Horário</h3>
+
+                    <p>
+                        Terça a Domingo
+                        <br>
+                        18h às 23h
+                    </p>
+                </div>
+
+
+                <div>
+                    <h3>📱 WhatsApp</h3>
+
+                    <p>
+                        (93) 99999-9999
+                    </p>
+                </div>
+
+            </div>
+
+
+            <a
+                href="https://wa.me/5593999999999"
+                target="_blank"
+                class="whatsapp"
+            >
+                Pedir pelo WhatsApp
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="logo">
+            Sabor <span>&</span> Brasa
+        </div>
+
+        <p>
+            © 2026 Sabor & Brasa
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
